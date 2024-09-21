@@ -1,6 +1,40 @@
 /* Add Google fonts below */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .heading-large {
+        @apply text-[104px] font-extrabold leading-[110%] tracking-[2px];
+    }
+
+    .heading-small {
+        @apply text-[14px] font-bold leading-[auto] tracking-[25%];
+    }
+
+    .heading-mobile {
+        @apply text-[12px] font-bold leading-[auto] tracking-[25%];
+    }
+
+    .output-mobile {
+        @apply text-[56px] font-extrabold italic leading-[110%] tracking-[2px];
+    }
+
+    .body {
+        @apply text-[14px] italic leading-[auto] tracking-[0%];
+    }
+
+    .body-mobile {
+        @apply text-[12px] italic leading-[auto] tracking-[0%];
+    }
+
+    .form-desktop {
+        @apply text-[32px] font-bold leading-[auto] tracking-[1%];
+    }
+
+    .form-mobile {
+        @apply text-[20px] font-bold leading-[auto] tracking-[1%];
+    }
+}

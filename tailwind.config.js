@@ -8,7 +8,21 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      colors: {
+        black: '#151515',
+        purple: '#854DFF',
+        grey: {
+          light: '#F0F0F0',
+          normal: '#716F6F',
+        },
+        line: '#DCDCDC',
+        red: '#FF5959'
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
